@@ -1,4 +1,4 @@
-package org.concordia.comp6231.server.model;
+package org.concordia.comp6231.sequencer;
 
 public interface SequencerCommunicator {
 	public long feSend(byte [] data);

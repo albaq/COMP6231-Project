@@ -1,10 +1,10 @@
-package org.concordia.comp6231.server;
+package org.concordia.comp6231.frontend;
 
 import java.io.IOException;
 
+import org.concordia.comp6231.sequencer.SequencerCommunicator;
+import org.concordia.comp6231.sequencer.SequencerCommunicatorImpl;
 import org.concordia.comp6231.server.model.Passenger;
-import org.concordia.comp6231.server.model.SequencerCommunicator;
-import org.concordia.comp6231.server.model.SequencerCommunicatorImpl;
 import org.concordia.comp6231.util.Util;
 
 import flightreservationfrontend.FlightReservationFrontEndPOA;

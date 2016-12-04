@@ -1,4 +1,4 @@
-package org.concordia.comp6231.server.model;
+package org.concordia.comp6231.sequencer;
 
 import java.io.IOException;
 import java.net.DatagramPacket;
@@ -10,6 +10,7 @@ import java.net.UnknownHostException;
 import java.util.HashMap;
 import java.util.Map;
 
+import org.concordia.comp6231.frontend.messages.FE_SequencerMessage;
 import org.concordia.comp6231.util.Util;
 
 public class SequencerCommunicatorImpl implements SequencerCommunicator {
